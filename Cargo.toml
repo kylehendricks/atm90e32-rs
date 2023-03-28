@@ -1,0 +1,18 @@
+[package]
+name = "atm90e32"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kyle Hendricks <kyle-github@mail.hendricks.nu>"]
+description = "A platform-agnostic driver for the ATM90E32 energy metering device."
+documentation = "https://docs.rs/atm90e32"
+license = "MIT"
+repository = "https://github.com/kylehendricks/atm90e32-rs"
+homepage = "https://github.com/kylehendricks/atm90e32-rs"
+keywords = ["energy", "atm90e32", "embedded-hal"]
+categories = ["embedded", "hardware-support", "no-std"]
+
+[features]
+std = []
+
+[dependencies]
+embedded-hal = "1.0.0-alpha.9"
